@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+nav {
+  background: orange;
+  padding: 0.5rem 2rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 1.6rem;
+  padding: 0.5rem 0.5rem;
+  white-space: nowrap;
+}
+.logo a,
+.toggle a {
+  font-size: 2rem;
+}
+.button.second-ary {
+  border-bottom: 1px #fffcfc solid;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item.button {
+  order: 2;
+}
+
+.item.active {
+  display: block;
+}
+
+.item {
+  display: inline-block;
+  width: auto;
+}
+.toggle {
+  display: none;
+}
+.logo {
+  order: 0;
+}
+.item {
+  order: 1;
+}
+.button {
+  order: 2;
+}
+
+.menu li.button {
+  padding-right: 0;
+}
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.4rem;
+
+  background-color: rgb(156, 224, 156);
+  width: 20rem;
+  height: 25rem;
+  border: 1px solid black;
+  margin: 10rem 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.fl1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fl2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body {
+  background-color: rgb(250, 250, 125);
+}
+.content1 figure img {
+  width: 20rem;
+  height: 20rem;
+}
